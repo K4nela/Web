@@ -11,12 +11,13 @@ footer{
     display: grid;
     place-items: center;
     height: 200px;
+    color: #ECDBAC;
 }
 
 a{
     position: relative;
-    color: #ECDBAC;
     margin: 10px;
+    color: #ECDBAC;
 }
 
 section{
