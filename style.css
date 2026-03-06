@@ -1,0 +1,93 @@
+body{
+    background-color: #DCB477;
+    font-family: inter, cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer{
+    background-color: #A44823;
+    display: grid;
+    place-items: center;
+    height: 200px;
+}
+
+a{
+    position: relative;
+    color: #ECDBAC;
+    margin: 10px;
+}
+
+section{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 200px;
+}
+
+.banner{
+    box-sizing: border-box;
+    background-image:
+            radial-gradient(circle, rgba(164, 72, 35, 0.76) 0%, rgba(0, 0, 0, 0) 100%),
+            url("https://lirp.cdn-website.com/33406c6e/dms3rep/multi/opt/pudim-min-3f2f6769-1920w.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.banner h1{
+    font-size: 100px;
+    color: white;
+}
+
+
+.historia{
+    background-color: #A44823;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: #65220a 5px 5px 10px;
+}
+
+.titulo{
+    display: grid;
+    place-items: center;
+    color: white;
+    text-shadow: #63220e 2px 2px 5px;;
+}
+
+.receitas{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.receita{
+    background-color: #A44823;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: #65220a 5px 5px 10px;
+}
+
+.curiosidades{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.curiosidade{
+    background-color: #A44823;
+    box-shadow: #65220a 5px 5px 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
