@@ -1,5 +1,5 @@
 //biblioteca para capturar a entrada de valores
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 
 function questao1(){
 //1 - Crie um jogo onde o computador gera um número aleatório de 1 a 20, e o usuário
