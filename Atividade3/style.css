@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+}
+
+section{
+    place-items: center;
+}
+
+*{
+    padding: 5px;
+    margin:20px;
+}
+
+button, div{
+    padding: 5px;
+    border: 1px solid;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input{
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+select{
+    display: block;
+}
